@@ -1,0 +1,8 @@
+mvn test -Dcucumber.options="pathparafeature"
+mvn test -Dcucumber.options="pathtofeature --tags @annotationsname" -Dbrowser="nomedobrowser"
+mvn install -Dcucumber.options="--tags @foo --format pretty --monochrome"
+mvn test -Dcucumber.options="@target/falhas/rerun.txt"
+
+'mvn test "-Dcucumber.options = --format json:target/firefox.json"'
+'mvn test "-Dcucumber.options = --format json:target/chrome.json"'
+mvn install:install-file -Dfile=/user/usuario/projeto/suaDependencia.jar -DgroupId=org.meujar -DartifactId=meujar -Dversion=1.0.0 -Dpackaging=jar -DgeneratePom=true

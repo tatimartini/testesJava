@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: br.com.main.CucumberExecuteTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 164.592 sec - in br.com.main.CucumberExecuteTest
